@@ -1,5 +1,6 @@
 import 'package:capstone/bezierContainer.dart';
 import 'package:capstone/homePage.dart';
+import 'package:capstone/privacy.dart';
 import 'package:capstone/signup.dart';
 import 'package:flutter/material.dart';
 
@@ -62,7 +63,7 @@ class _LoginPageState extends State<LoginPage> {
     return InkWell(
         onTap: () {
           Navigator.push(
-              context, MaterialPageRoute(builder: (context) => HomePage()));
+              context, MaterialPageRoute(builder: (context) => Privacy()));
         },
 
       child: Container(
